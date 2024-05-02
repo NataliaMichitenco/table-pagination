@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<tableCom />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import tableCom from './components/tableCom.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    tableCom,
+
   }
 }
 </script>
@@ -22,5 +22,13 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+body {
+  background: #A6B6A9;
+}
+.center {
+  max-width: 1200px; /* Устанавливаем максимальную ширину контейнера */
+  width: 100%; /* Ширина контейнера занимает всю доступную ширину */
+  margin: 0 auto; /* Автоматически центрируем контейнер по горизонтали */
 }
 </style>
