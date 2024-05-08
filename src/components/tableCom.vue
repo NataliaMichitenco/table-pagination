@@ -72,7 +72,7 @@ export default {
     }
   },
   mounted() {
-    fetch('http://localhost:3000/api.json')
+    fetch('api.json')
       .then(response => response.json())
       .then(data => {
         this.data = data; // Сохраняем данные в переменную data компонента
