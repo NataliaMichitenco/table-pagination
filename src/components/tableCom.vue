@@ -72,7 +72,7 @@ export default {
     }
   },
   mounted() {
-    fetch('https://raw.githubusercontent.com/NataliaMichitenco/table-pogination/master/api.json')
+    fetch('http://localhost:3000/api.json')
       .then(response => response.json())
       .then(data => {
         this.data = data; // Сохраняем данные в переменную data компонента
