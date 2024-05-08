@@ -1,5 +1,5 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  publicPath: `/table-pogination/`,
+  publicPath: `/table-pagination/`,
   transpileDependencies: true
 })
